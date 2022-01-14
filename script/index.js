@@ -59,23 +59,22 @@ $(document).ready(function() {
           },
         data: {
             labels: [
-              'NFT Competition',
-              'Community Airdrops',
-              'Token for Staking',
-              'Liquidity Provider',
+              'Staking Options',
+              'Airdrop',
+              'Liquidity',
               'Grant Program',
-              'Team Members'
+              'Devs Wallet'
             ],
             datasets: [{
               label: 'My First Dataset',
-              data: [20, 20, 15, 10, 20, 5],
+              data: [17.0, 18.0, 45.0, 10.0, 10.0, ],
               backgroundColor: [
                 '#2ecc71',
                 '#f1c40f',
                 '#3498db',
                 '#e67e22',
                 '#e74c3c',
-                '#2c3e50'
+                
               ],
               hoverOffset: 6
             }]
